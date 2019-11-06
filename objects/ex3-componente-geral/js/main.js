@@ -52,6 +52,10 @@ document.querySelector('.button__search').addEventListener('click', function(){
         // o meu inputValue está incluso em alguma parte do título OU dos ingredientes.
         return receita.titulo.toUpperCase().includes(inputValue) || receita.ingredientes.toUpperCase().includes(inputValue)
     })
-    console.log(achados)
+    document.querySelector('.cards').innerHTML = 
+    achados.map(receita => {
+    return new Card(receita).render()
+    }).join("")
+
 })
 
