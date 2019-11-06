@@ -29,7 +29,7 @@ users.map(user => {
 {
   nome: "Antonio Banderas",
   imagem: "https://answersafrica.com/wp-content/uploads/2019/06/antonio-banderas-640x441.jpg"
-}]
+};
 
 class Avatar{
   constructor(usuario){
