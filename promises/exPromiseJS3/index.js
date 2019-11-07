@@ -30,6 +30,7 @@ function criaTexto(texto) {
     })
   }
   
+
   ensaboar()
     .then(res => {
       criaTexto(res)
