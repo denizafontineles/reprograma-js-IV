@@ -1,0 +1,30 @@
+{
+  "name": "reprograma-js-IV",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD\r # reprograma-js-IV\r =======\r # T8-javascript-IV\r Turma 8 | Front-end | 2019 | Semana 13 | Javascript IV",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizafontineles/reprograma-js-IV.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "4.8.1",
+    "webpack-cli": "2.1.3",
+    "style-loader": "0.21.0",
+    "css-loader": "0.28.11",
+    "mini-css-extract-plugin": "0.4.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^7.1.0"
+  },
+  "bugs": {
+    "url": "https://github.com/denizafontineles/reprograma-js-IV/issues"
+  },
+  "homepage": "https://github.com/denizafontineles/reprograma-js-IV#readme"
+}
